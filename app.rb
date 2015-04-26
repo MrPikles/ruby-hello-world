@@ -15,6 +15,7 @@ def configure_database
       sleep 0.1
     end
   end
+  puts "Theres no damn Hello World!!!!"
   puts "Connected to database"
   puts "Create database..."
   %x"rake db:create"
