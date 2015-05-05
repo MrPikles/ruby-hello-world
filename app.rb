@@ -16,9 +16,7 @@ def configure_database
     end
   end
   
-  
-  
-  puts "Connected to database"
+  puts "Connected to database."
   puts "Create database...."
   %x"rake db:create"
   puts "Run migrations..."
