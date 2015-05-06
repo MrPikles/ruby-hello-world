@@ -22,6 +22,7 @@ def configure_database
   puts "try again..."
   puts "lets try again.."
   puts "last time"
+  puts "last time"
   %x"rake db:create"
   puts "Run migrations..."
   %x"rake db:migrate"
